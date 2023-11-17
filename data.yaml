@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Angular Leafspot', 'Anthracnose Fruit Rot', 'Blossom Blight', 'Gray Mold', 'Health_100', 'Health_25', 'Health_50', 'Health_75', 'Leaf Spot', 'Powdery Mildew Fruit', 'powdery_mildew_leaf']
+
+roboflow:
+  workspace: strawberry-yspjc
+  project: strawberry-skcti
+  version: 14
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/strawberry-yspjc/strawberry-skcti/dataset/14
